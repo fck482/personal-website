@@ -1,0 +1,134 @@
+/* Basic resets and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#introduction {
+    text-align: center;
+}
+
+#introduction img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    margin: 1rem 0;
+}
+
+.progress-bar {
+    background: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 80%;
+    display: flex;
+    font-size: 14px;
+}
+
+.progress-bar span {
+    display: block;
+    height: 10px;
+    background: #333;
+}
+
+
+.project {
+    margin-bottom: 2rem;
+    display: flex;
+    margin-left: 80px;
+}
+
+.project img {
+    margin-right:30px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.project .titlebrief{
+    margin-top: 60px;
+}
+
+#timeline ul {
+    margin-left: 30px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
